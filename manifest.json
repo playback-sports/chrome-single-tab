@@ -1,0 +1,25 @@
+{
+    "name": "Single Tab",
+    "description": "Only allow a single tab to be open",
+    "version": "0.1.0",
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    },
+    "permissions": [
+        "tabs"
+    ],
+    "browser_action": {
+        "default_icon": {
+            "19": "icons/19.png",
+            "38": "icons/38.png"
+        },
+        "default_title": "Single Tab"
+    },
+    "icons": {
+        "48": "icons/48.png",
+        "128": "icons/128.png"
+    },
+    "manifest_version": 2
+}
