@@ -3,7 +3,7 @@
     "description": "Only allow a single tab to be open",
     "version": "0.1.0",
     "background": {
-        "scripts": [
+        "service_worker": [
             "background.js"
         ]
     },
